@@ -1,2 +1,2 @@
-Small newbie projects 🔰
+🌱 Small newbie projects 🔰
 Mostly front-end stuff
