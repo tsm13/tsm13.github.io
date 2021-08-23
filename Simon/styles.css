@@ -13,8 +13,8 @@ body {
 }
 
 .container {
-  width: 400px;
-  height: 400px;
+  width: 600px;
+  height: 600px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: auto;
@@ -59,10 +59,10 @@ body {
 #start-button {
   background-color: #000;
   border-radius: 50%;
-  height: 100px;
-  width: 100px;
-  left: 150px;
-  top: 150px;
+  height: 125px;
+  width: 125px;
+  left: 240px;
+  top: 240px;
   display: flex;
   justify-items: flex-end;
   align-items: center;
@@ -72,6 +72,6 @@ body {
 
 .start, .reset {
   color: #fff;
-  font-size: 0.9rem;
+  font-size: 1rem;
   flex: 1;
 }
