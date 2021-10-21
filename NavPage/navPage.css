@@ -1,0 +1,64 @@
+body {
+    background-color: #37405c;
+}
+
+.nav-image {
+    position: relative;
+}
+
+.nav-link {
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 15px;
+    position: relative;
+    transition: 0.3s;
+}
+
+.nav-link:after {
+    content: url('trashCat.png');
+    position: absolute;
+    opacity: 0;
+    top: 5px;
+    left: 95%;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    background: #3a567e;
+    color: #fff !important;
+    padding-right: 40px;
+    border-radius: 15px;
+}
+
+.nav-link:hover:after {
+    opacity: 1;
+    left: 80%;
+}
+
+.nav-link:hover~.nav-image {
+    opacity: 0.25;
+}
+
+.nav-link:hover~.nav-hover-info {
+    opacity: 1;
+}
+
+.btn1:hover~.info1,
+.btn2:hover~.info2,
+.btn3:hover~.info3,
+.btn4:hover~.info4,
+.btn5:hover~.info5,
+.btn6:hover~.info6 {
+    opacity: 1;
+}
+
+.nav-info {
+    opacity: 0;
+    color: #e4e4e4;
+    font-weight: bold;
+    line-height: 1.5;
+    transition: .5s ease;
+    position: absolute;
+    margin-left: 220px;
+    margin-bottom: 50px;
+}
